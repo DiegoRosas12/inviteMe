@@ -4,10 +4,14 @@
         <title>Agregar amigo</title>
         <meta charset='utf-8'>
         <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="logic.js"></script>
     </head>
+<body onload="loadEvents(3)">
     <table>
         <tr>
-            <td><h1>Mis Eventos</h1></td> <td><h3><u>Nuevo</u></h3></td>
+            <td><h1>Mis Eventos</h1></td>
+            <td><h3><u>Nuevo</u></h3></td>
         </tr>
     </table>
         
@@ -20,8 +24,19 @@
             <td><h1>Mis amigos</h1></td> <td><h3><u>Agregar</u></h3></td>
         </tr> 
     </table>
-        <div id="friends-container">
-        <div class="friend"></div>
+    <tr>
+        <div id="friends-container1">
+        <div class="friend"><img src="images/friend1.png"></div>
+        <div class="friend"><img src="images/friend1.png"></div>
+        <div class="friend"><img src="images/friend1.png"></div>
         </div>
-    </body>
+    </tr>
+    <tr>
+        <div id="friends-container2">
+        <div class="friend"><img src="images/friend2.png"></div>
+        <div class="friend"><img src="images/friend2.png"></div>
+        <div class="friend"><img src="images/friend2.png"></div>
+        </div>
+    </tr>
+</body>
 </html>
